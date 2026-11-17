@@ -42,7 +42,7 @@ video{width:100%;border-radius:18px;background:#111;aspect-ratio:4/3;object-fit:
 <div id="toast"></div>
 <script src="https://cdn.jsdelivr.net/npm/@zxing/library@0.21.3/umd/index.min.js"></script>
 <script>
-const API = 'https://script.google.com/macros/s/AKfycbwPMV8ycyWW6SdN-UCNlQMWxkDNIZy2WUQeXDqCEXxU6FaIH6seas4h4RYJbgfq2M2i/exec'; // URL Web App (berakhiran /exec)
+const API = 'https://script.google.com/macros/s/AKfycbwPQe2bUcZq-lmoBWqrz2PTzAwanE_KHL55wuaJpqGZWh8RkcjfLp1Wcvplx50jczKZ/exec'; // URL Web App (berakhiran /exec)
 const $ = s => document.querySelector(s), nf = n => new Intl.NumberFormat('id-ID').format(n);
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const L = (k, d) => { try { return JSON.parse(localStorage[k]) } catch { return d } };
